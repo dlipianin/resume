@@ -1,0 +1,196 @@
+/* GENERAL */
+
+body {
+  margin: 5%;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40114E;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #B5DEFF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #B5DEFF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #98D6EA;
+  font-size: 1.25rem;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #98D6EA;
+  font-family: 'Montserrat', sans-serif;
+  /*margin: 10px 20px;*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DEECFC;
+}
+
+nav {
+  padding: 0;
+  margin: -5%;
+}
+
+footer {
+  background-color: #DEECFC;
+  padding: 50px 0 20px;
+  margin: 0 -6% -10%;
+}
+
+/* HOME PAGE */
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #B5DEFF;
+}
+
+.nav-link:hover {
+  color: #98D6EA;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.top-container {
+  background-color: #F3F8FF;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin: 0 -6%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.row {
+  width: 100%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.icon-footer {
+  width: 2%;
+  margin: 10px 20px;
+}
+
+.footer-link {
+  color: #98D6EA;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 0.625rem;
+  padding: 20px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.education-message {
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+  text-align: justify;
+}
+
+.icon {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.icon-coding-small {
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.icon-languages-small {
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.icon-top {
+  width: 10%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 730px) {
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    a {
+      font-size: 1rem;
+    }
+
+    .icon-top {
+      width: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 731px) {
+
+    .row {
+      width: 50%;
+    }
+
+}
+
+@media only (min-width: 731px) and (max-width: 800px) {
+
+  .icon-top {
+    width: 20%;
+  }
+
+}
